@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="tiny3d">
+      <UniqueIdentifier>{cb0f6907-e0aa-4b61-b1e8-c4cf67f6db5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tiny3d\geometry">
+      <UniqueIdentifier>{4c3a3ddd-40d1-41e0-a640-1da4ce2998de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tiny3d\math">
+      <UniqueIdentifier>{227d40ae-65e6-43c5-a4e2-42e734f2ce5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tiny3d\base">
+      <UniqueIdentifier>{ed35d82f-7001-4cfd-819a-74eb1e60bb0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tiny3d\graphic">
+      <UniqueIdentifier>{1486c1ae-5ccd-4899-a0e9-f8215913e6a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tiny3d\win32">
+      <UniqueIdentifier>{f3dcf1be-3b57-4c84-984e-33c03b6e7b33}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tiny3d\tiny3d.h">
+      <Filter>tiny3d</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny3d\geometry\geometry.h">
+      <Filter>tiny3d\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny3d\math\matrix4.h">
+      <Filter>tiny3d\math</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny3d\math\quaternion.h">
+      <Filter>tiny3d\math</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny3d\math\vector2.h">
+      <Filter>tiny3d\math</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny3d\math\vector3.h">
+      <Filter>tiny3d\math</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny3d\math\vector4.h">
+      <Filter>tiny3d\math</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny3d\base\base.h">
+      <Filter>tiny3d\base</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny3d\math\math.h">
+      <Filter>tiny3d\math</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny3d\geometry\line.h">
+      <Filter>tiny3d\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny3d\geometry\mesh.h">
+      <Filter>tiny3d\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny3d\geometry\triangle.h">
+      <Filter>tiny3d\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny3d\geometry\plane.h">
+      <Filter>tiny3d\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny3d\graphic\color.h">
+      <Filter>tiny3d\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny3d\win32\gdiContext.h">
+      <Filter>tiny3d\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny3d\win32\gdiRenderer.h">
+      <Filter>tiny3d\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny3d\graphic\renderer.h">
+      <Filter>tiny3d\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny3d\graphic\camera.h">
+      <Filter>tiny3d\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny3d\geometry\obj.h">
+      <Filter>tiny3d\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny3d\geometry\cube.h">
+      <Filter>tiny3d\geometry</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="tiny3d\math\math.cpp">
+      <Filter>tiny3d\math</Filter>
+    </ClCompile>
+    <ClCompile Include="tiny3d\math\vector2.cpp">
+      <Filter>tiny3d\math</Filter>
+    </ClCompile>
+    <ClCompile Include="tiny3d\math\vector3.cpp">
+      <Filter>tiny3d\math</Filter>
+    </ClCompile>
+    <ClCompile Include="tiny3d\math\vector4.cpp">
+      <Filter>tiny3d\math</Filter>
+    </ClCompile>
+    <ClCompile Include="tiny3d\math\matrix4.cpp">
+      <Filter>tiny3d\math</Filter>
+    </ClCompile>
+    <ClCompile Include="tiny3d\math\quaternion.cpp">
+      <Filter>tiny3d\math</Filter>
+    </ClCompile>
+    <ClCompile Include="tiny3d\graphic\color.cpp">
+      <Filter>tiny3d\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="tiny3d\graphic\renderer.cpp">
+      <Filter>tiny3d\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="tiny3d\win32\gdiRenderer.cpp">
+      <Filter>tiny3d\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="tiny3d\win32\gdiContext.cpp">
+      <Filter>tiny3d\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="tiny3d\graphic\camera.cpp">
+      <Filter>tiny3d\graphic</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
